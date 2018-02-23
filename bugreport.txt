@@ -1,0 +1,38 @@
+date/time          : 2018-02-21, 16:25:55, 376ms
+computer name      : DESKTOP-J54Q7V8
+user name          : sfitz
+registered owner   : HP / HP
+operating system   : Windows 10 Tablet PC x64 build 16299
+system language    : English
+system up time     : 1 day 18 hours
+program up time    : 6 minutes 55 seconds
+processors         : 8x AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx
+physical memory    : 3469/7892 MB (free/total)
+free disk space    : (C:) 873.62 GB
+display mode       : 1536x864, 32 bit
+process id         : $357c
+allocated memory   : 64.93 MB
+largest free block : 131029.99 GB
+executable         : heidisql.exe
+exec. date/time    : 2017-12-19 16:46
+version            : 9.5.0.5196
+compiled with      : Delphi XE5
+madExcept version  : 4.0.12
+callstack crc      : $f048fda0, $60d68ea6, $60d68ea6
+exception number   : 2
+exception class    : EAccessViolation
+exception message  : Access violation at address 000000000097F820 in module 'heidisql.exe'. Read of address 0000000000000000.
+
+thread $38c0:
+0097f820 heidisql.exe helpers        2891 +35 TQueryThread.Execute
+004fb5e4 heidisql.exe madExcept               HookedTThreadExecute
+005d5bb0 heidisql.exe System.Classes          ThreadProc
+0040f678 heidisql.exe System                  ThreadWrapper
+004fb4b9 heidisql.exe madExcept               ThreadExceptFrame
+7ffd83c8 KERNEL32.DLL                         BaseThreadInitThunk
+7ffd84c4 ntdll.dll                            RtlUserThreadStart
+
+main thread ($33a8):
+00000000 heidisql.exe madStackTrace +0 StackAddrToStr
+>> stack will be calculated soon
+
